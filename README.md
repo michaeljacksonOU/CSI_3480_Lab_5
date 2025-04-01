@@ -9,3 +9,7 @@ the avalance effect: a small change in the input of the hash function can lead t
 Explain how digital signatures ensure authenticity and integrity: by using cryptographic hash functions and asymmetric cryptography, which are functions that will encode the message making it harder for somebody to see the conntents.
 
 A digital signature cannot be created with a public key because the process relies on the sender's private key to encrypt a message (or hash of the message), and only the corresponding public key can decrypt and verify that signature
+
+app.py has the hash function example
+
+app1.py has the ASA encryption and RSA example
