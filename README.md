@@ -6,4 +6,6 @@ Whats are the properties of a good cryptographic function: deterministic, effici
 
 the avalance effect: a small change in the input of the hash function can lead to a very significant and unpredictable change in the ouput. I will prove this in a screenshot inside of my directory.
 
+Explain how digital signatures ensure authenticity and integrity: by using cryptographic hash functions and asymmetric cryptography, which are functions that will encode the message making it harder for somebody to see the conntents.
 
+A digital signature cannot be created with a public key because the process relies on the sender's private key to encrypt a message (or hash of the message), and only the corresponding public key can decrypt and verify that signature
